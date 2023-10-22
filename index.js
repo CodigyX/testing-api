@@ -20,6 +20,10 @@ app.get('/size', (req, res, next) => {
 	res.sendfile("assets/1a_dev_hours.json");
   });
 
+  app.get('/3a1', (req, res, next) => {
+	res.sendfile("assets/3a_test1.json");
+});
+
 app.listen(port,  () => 
 	console.log('listening on port ' + port
 ));
